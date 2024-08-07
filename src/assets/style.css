@@ -13,7 +13,10 @@ header part
 .navber-main{
     display: flex;
     justify-content: space-between;
-    padding: 17px 0px;
+    padding: 22px 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.06);
+    margin-left: -17px;
+    margin-right: -17px;
 }
 
 .main-navber ul{
@@ -75,3 +78,81 @@ header part
     color: #ffff;
     transform: translateZ(-1);
   }
+
+
+  /* Main hero section */
+
+  .main-page{
+    background-color: #EDECED;
+    align-self: center;
+  }
+
+
+  .hero{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    padding: 0px 70px;
+  }
+
+  .left-part{
+    width: 50%;
+  }
+.hero-text{
+    font-size: 70px;
+    text-transform: uppercase;
+    line-height: 70px;
+  }
+
+  .hero-text .fa-key-skeleton{
+    color: #089D49;
+  }
+
+  .hero-text .unlock{
+    color: #089D49;
+  }
+
+  .hero p{
+    font-size: 15px;
+  }
+
+.right-side ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  max-width: 420px;
+  flex-wrap: wrap;
+}
+.right-side ul li{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 88px;
+  height: 88px;
+  padding: 5px;
+  border: 2px solid #000;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.right-side ul li {
+  border-right: none ;
+  border-bottom: none;
+}
+
+.right-side ul li i{
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  color: red;
+}
+
+.right-side ul li.last {
+  border-right: none ;
+  border-bottom: 2px solid #000;
+}
+.right-side ul li.lastfinal{
+  border-right: 2px solid #000;
+}
